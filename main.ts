@@ -26,14 +26,9 @@ function makeEnemy () {
     evilburger.vx = 40
     evilburger.vy = 60
     evilburger.y = 0
-    evilburger.x = randint(0, 160)
+    evilburger.x = randint(0, 1600)
     evilburger.setFlag(SpriteFlag.BounceOnWall, true)
-evilburger.ay = 70
-
-
-
-
-
+    evilburger.ay = 70
 }
 let evilburger: Sprite = null
 let fish: Sprite = null
